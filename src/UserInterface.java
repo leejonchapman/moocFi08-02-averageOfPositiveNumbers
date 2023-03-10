@@ -14,7 +14,7 @@ public class UserInterface {
         while (runMenu) {
             int uI = scanner.nextInt();
             if (uI == 0) {
-                if (total <= 0) {
+                if (total == 0) {
                     System.out.println("Cannot calculate the average");
                     runMenu = false;
                     break;
